@@ -113,15 +113,33 @@
 
                     <p>El SVG puede ser incrustado en un HTML tal como el CSS o el JavaScript, entre etiquetas que lo anuncien:</p>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <title>57_Authority_bdg_v15</title>
-                    <path d="M90.34,58.24v6.89H9.66V58.24L25,53.81V5.6h7.75v46l16.48-4.68ZM84,88.62h6.39v5.91H9.66V88.62h6v-18H30.32v18H42.5v-18H57.13v18H69.31v-18H84ZM55.66,35.24h-18V5.47H63.53L69.19,11H88.38V40.78H61.32Z"></path>
-                    <text text-anchor="middle" x="60" y="25" fill="white" font-size="15">PARE</text>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
+                    <defs>
+                    <style>
+                    .cls-1 {
+                    fill: none;
+                    stroke: #000;
+                    stroke-miterlimit: 10;
+                      }
+                      path:hover{fill:#90414B;}
+                    </style>
+                    </defs>
+                    <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+                     <g>
+                    <g id="Capa_1">
+                      <path d="M90.3,58.2v6.9H9.7v-6.9l15.3-4.4V5.6h7.8v46l16.5-4.7,41.1,11.3ZM84,88.6h6.4v5.9H9.7v-5.9h6v-18h14.7v18h12.2v-18h14.6v18h12.2v-18h14.7v18ZM55.7,35.2h-18V5.5h25.9l5.7,5.5h19.2v29.8h-27.1l-5.7-5.5Z"/>
+                      <path class="cls-1" d="M9.5,11.6s-2.8,25.3,3.6,34.6"/>
+                      <polygon points="15.3 44.2 11 48.4 15.3 50 15.3 44.2"/>
+
+                    </g>
+                     </g>
+                    <text text-anchor="middle" x="62" y="23" fill="white" font-size="5">Bellavista Oveja Tomé</text>
                      </svg>
 
                     <p>También puede tratarse como un documento de extensión SVG, que puede ser incluido en el HTML como un objeto (<code>&lt;object&gt;&lt;/object&gt;</code>) de un tipo determinado:</p>
 
                     <object data="img/edificio.svg" type="image/svg+xml"></object>
+
 
                     <p>También puede ser incluido como si se tratara de una imagen rasterizada (<code>img</code>), a la que se va a buscar como recurso (<code>src</code>). El problema es que al tratarla de tal forma ya no hay ninguna descripción de gráfica que se pueda aprovechar:</p>
 
