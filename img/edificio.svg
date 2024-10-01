@@ -7,7 +7,7 @@
         stroke: #000;
         stroke-miterlimit: 10;
       }
-      path:hover{fill:pink;}
+      path:hover{fill:#90414B;}
     </style>
   </defs>
   <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
